@@ -1,0 +1,308 @@
+﻿<Window x:Class="ExaminationSystemWpf.WindowQuestion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExaminationSystemWpf"
+        mc:Ignorable="d"
+         Title="WindowQuestion" Height="800" Width="1200" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None" ShowInTaskbar="True">
+    <DockPanel LastChildFill="True">
+        <Grid DockPanel.Dock="Top" x:Name="PanelHeader" VerticalAlignment="Top" Height="60" Background="#FF058306" >
+
+            <Image Source="/Images/icons_closed.png"  Width="30px" HorizontalAlignment="Right" Margin="10 0" MouseDown="Image_MouseDown"/>
+
+
+        </Grid>
+        <Grid DockPanel.Dock="Left" x:Name="sidePanel" ScrollViewer.CanContentScroll="False"  HorizontalAlignment="Left" Width="200" Background="#FF4B4646">
+            <StackPanel>
+                <Grid Height="50" Background="White">
+                    <Button Height="30" VerticalAlignment="Top" HorizontalAlignment="Right" 
+                            Background="Transparent" BorderBrush="Transparent" Margin="10">
+                        <Image Source="Images/icons_menu.png" Width="30" />
+                    </Button>
+
+                </Grid>
+                <ListView x:Name="List1" BorderBrush="Transparent"  Background="Transparent" Foreground="White" FontFamily="Century Gothic" FontSize="20" SelectionChanged="ListView_SelectionChanged">
+                    <ListViewItem Height="50">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center"/>
+                            <TextBlock Margin="15 0 0 0" Text="Add Question" FontWeight="Bold" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="50">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center"/>
+                            <TextBlock Margin="15 0 0 0" Text="Update Quest" FontWeight="Bold" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="50">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center"/>
+                            <TextBlock Margin="15 0 0 0" Text="Delete Quest" FontWeight="Bold" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="50">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center"/>
+                            <TextBlock Margin="15 0 0 0" Text="Show Quest" FontWeight="Bold" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </StackPanel>
+
+        </Grid>
+        <Grid Margin="60 100">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid x:Name="GridDeleteQuestion" Margin="10,10,10,-99" Visibility="Visible">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="304*"/>
+                    <ColumnDefinition Width="547*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.ColumnSpan="2" Margin="0,-29,0,31">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="220*"></ColumnDefinition>
+                            <ColumnDefinition Width="365*"></ColumnDefinition>
+                            <ColumnDefinition Width="12*"/>
+                            <ColumnDefinition Width="169*"/>
+                            <ColumnDefinition Width="85*"></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+
+                        </Grid.RowDefinitions>
+                        <Label  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Course:</Label>
+                        <ComboBox SelectedIndex="0" x:Name="Displaycourse" Grid.Row="0" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3" ></ComboBox>
+
+
+
+                        <Label  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Type of Qusetionpool :</Label>
+
+                        <ComboBox  Name="QuestionType" Grid.Row="1" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3" SelectionChanged="QuestionType_SelectionChanged">
+                            <ComboBoxItem >Text</ComboBoxItem>
+                            <ComboBoxItem>MCQ</ComboBoxItem>
+                            <ComboBoxItem>True/False</ComboBoxItem>
+                        </ComboBox>
+                        <Label  Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Choise Qusetionpool :</Label>
+                        <StackPanel Margin="10,10,0,10" x:Name="DisplayQuestion" Grid.Row="6" Grid.Column="1" Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3">
+                            <DataGrid Height="100" x:Name="DatGridDisplayQuestion" HorizontalAlignment="Left" Width="450px" />
+                        </StackPanel>
+
+
+
+
+
+                    </Grid>
+                    <Button x:Name="DeleteQuestion" Foreground="White" Background="#FF058306" Content="Delete" FontSize="30px" Width="100px" Margin="30px" HorizontalAlignment="Center" Click="DeleteQuestion_Click" ></Button>
+                </StackPanel>
+            </Grid>
+
+            <Grid x:Name="GridAddQuestion" Margin="10,10,10,-99" Visibility="Visible">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="304*"/>
+                    <ColumnDefinition Width="547*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.ColumnSpan="2" Margin="0,-29,0,31">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="220*"></ColumnDefinition>
+                            <ColumnDefinition Width="365*"></ColumnDefinition>
+                            <ColumnDefinition Width="12*"/>
+                            <ColumnDefinition Width="169*"/>
+                            <ColumnDefinition Width="85*"></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+
+                        </Grid.RowDefinitions>
+                        <Label  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Course:</Label>
+                        <ComboBox x:Name="DisplaycourseAdd" Grid.Row="0" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3" ></ComboBox>
+
+                        <Label  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Body:</Label>
+                        <TextBox x:Name="QuestionBody" Grid.Row="1" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3" ></TextBox>
+
+                        <Label  Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Header:</Label>
+                        <TextBox x:Name="QuestionHeader"  Grid.Row="2" Grid.Column="1" Margin="10,10,0,10" Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3"></TextBox>
+
+
+                        <Label  Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Type of Qusetionpool :</Label>
+
+                        <ComboBox  Name="AddQuestionType" Grid.Row="3" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3" SelectionChanged="AddQuestionType_SelectionChanged">
+                            <ComboBoxItem >Text</ComboBoxItem>
+                            <ComboBoxItem>MCQ</ComboBoxItem>
+                            <ComboBoxItem>True/False</ComboBoxItem>
+                        </ComboBox>
+
+                        <Label  Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Answer of Question:</Label>
+                        <WrapPanel Grid.Row="4" Grid.Column="1" x:Name="answerQuestion"  Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3"/>
+                    </Grid>
+                    <Button x:Name="addquestion" Foreground="White" Background="#FF058306" Content="ADD" FontSize="30px" Width="100px" Margin="30px" HorizontalAlignment="Center"  Click="AddQuestion"></Button>
+                </StackPanel>
+            </Grid>
+
+
+            <Grid x:Name="GridUpdateQuestion" Margin="10,10,10,-99" Visibility="Visible">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="304*"/>
+                    <ColumnDefinition Width="547*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.ColumnSpan="2" Margin="0,-29,0,31">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="220*"></ColumnDefinition>
+                            <ColumnDefinition Width="365*"></ColumnDefinition>
+                            <ColumnDefinition Width="12*"/>
+                            <ColumnDefinition Width="169*"/>
+                            <ColumnDefinition Width="85*"></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+
+                        </Grid.RowDefinitions>
+                        <Label  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Course:</Label>
+                        <ComboBox SelectedIndex="0" x:Name="DisplaycourseUpdate" Grid.Row="0" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3" ></ComboBox>
+
+
+
+                        <Label  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Type of Qusetionpool :</Label>
+
+                        <ComboBox  Name="QuestionTypeUpdate" Grid.Row="1" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3" SelectionChanged="QuestionTypeUpdate_SelectionChanged">
+                            <ComboBoxItem >Text</ComboBoxItem>
+                            <ComboBoxItem>MSQ</ComboBoxItem>
+                            <ComboBoxItem>True/False</ComboBoxItem>
+                        </ComboBox>
+                        <Label  Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Choise Qusetionpool :</Label>
+                        <StackPanel  Height="100" Grid.Row="2" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3">
+                            <DataGrid x:Name="DGridDisplayUpdateQuestion" SelectionChanged="Displayquestion_selectionchanged" Height="100"></DataGrid>
+                        </StackPanel>
+                        <Label  Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Body:</Label>
+                        <TextBox x:Name="UpdateQuestionBody" Grid.Row="3" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3" ></TextBox>
+
+                        <Label  Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Header:</Label>
+                        <TextBox x:Name="UpdateQuestionHeader"  Grid.Row="4" Grid.Column="1" Margin="10,10,0,10" Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3"></TextBox>
+
+                        <Label  Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Answer:</Label>
+                        <Grid x:Name="GridUpdateTextAnswer" Grid.Row="5" Grid.Column="1" Margin="10,10,0,10" Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3">
+                            <TextBox x:Name="TextboxUpdateQuestionAnswer" ></TextBox>
+                        </Grid>
+                        <Grid x:Name="GridUpdateTrueFalseAnswer" Grid.Row="5" Grid.Column="1" Margin="10,10,0,10" Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3">
+                            <GroupBox>
+                                <StackPanel>
+                                    <RadioButton x:Name="UpdateTrueAnswer"  Content="True"></RadioButton>
+                                    <RadioButton x:Name="UpdateFalseAnswer" Content="False"></RadioButton>
+                                </StackPanel>
+                            </GroupBox>
+                        </Grid>
+                        <Grid x:Name="GridUpdateMcqAnswer" Grid.Row="5" Grid.Column="1" Margin="10,10,0,10" Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3">
+                            <DataGrid x:Name="DispayChoiseAnswer" Height="50"></DataGrid>
+
+                        </Grid>
+                        <Grid x:Name="GridAddDeleteChoise" Grid.Row="6" Grid.Column="1" Margin="10,10,0,10" Width="450px"  HorizontalAlignment="Left" Grid.ColumnSpan="3">
+                            <WrapPanel  >
+                                <TextBox x:Name="TextBoxUpdateChoiseAnswer" Width="150"></TextBox>
+                                <GroupBox Margin="20,0,0,0">
+                                    <StackPanel>
+                                        <RadioButton x:Name="UpdateTrueChoiseAnswer"  Content="True"></RadioButton>
+                                        <RadioButton x:Name="UpdateFalseChoiseAnswer" Content="False"></RadioButton>
+                                    </StackPanel>
+
+                                </GroupBox>
+
+                                <Button Foreground="White" Background="#FF058306" Margin="20,0,0,0" x:Name="Addnewchoise" FontSize="14px" Click="BtnaddChoise">Add choice</Button>
+                                <Button Foreground="White" Background="#FF058306" Margin="20,0,0,0" x:Name="Deletechoise" FontSize="14px" Click="DeleteChoise">Delete choice</Button>
+                            </WrapPanel>
+                        </Grid>
+                    </Grid>
+                    <Button x:Name="UpdateQuestion" Foreground="White" Background="#FF058306" Content="Update"  FontSize="30px" Width="100px" Margin="30px" HorizontalAlignment="Center" Click="Updatequestion_Click"  ></Button>
+                </StackPanel>
+            </Grid>
+
+
+
+
+            <Grid x:Name="GridShowQuestion" Margin="10,10,10,-99" Visibility="Visible">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="304*"/>
+                    <ColumnDefinition Width="547*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.ColumnSpan="2" Margin="0,-29,0,31">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="220*"></ColumnDefinition>
+                            <ColumnDefinition Width="365*"></ColumnDefinition>
+                            <ColumnDefinition Width="12*"/>
+                            <ColumnDefinition Width="169*"/>
+                            <ColumnDefinition Width="85*"></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+
+                        </Grid.RowDefinitions>
+                        <Label  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Course:</Label>
+                        <ComboBox SelectedIndex="0" x:Name="cmbDisplayCourseShow" Grid.Row="0" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3" ></ComboBox>
+
+
+
+                        <Label  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Type of Qusetionpool :</Label>
+
+                        <ComboBox  Name="ShowQuestionType" Grid.Row="1" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3" SelectionChanged="QuestionTypeShow_SelectionChanged">
+                            <ComboBoxItem >Text</ComboBoxItem>
+                            <ComboBoxItem>MCQ</ComboBoxItem>
+                            <ComboBoxItem>True/False</ComboBoxItem>
+                        </ComboBox>
+                        <Label  Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Choise Qusetionpool :</Label>
+                        <StackPanel Margin="10,10,0,10"  Grid.Row="6" Grid.Column="1" Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3">
+                            <DataGrid Height="100" x:Name="DatGridShowQuestion" HorizontalAlignment="Left" Width="450px" />
+                        </StackPanel>
+
+
+
+
+
+                    </Grid>
+
+                </StackPanel>
+            </Grid>
+
+
+
+
+        </Grid>
+
+
+    </DockPanel>
+</Window>

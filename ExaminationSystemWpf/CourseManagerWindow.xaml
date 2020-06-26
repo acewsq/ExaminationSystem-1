@@ -1,0 +1,487 @@
+﻿<Window x:Class="ExaminationSystemWpf.CourseManagerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExaminationSystemWpf"
+        mc:Ignorable="d"
+        Title="CourseManagerWindow"  Height="800" Width="1200" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+
+    <DockPanel LastChildFill="True">
+        <Grid DockPanel.Dock="Top" x:Name="PanelHeader" VerticalAlignment="Top" Height="60" Background="#FF058306" >
+
+            <Image Source="/Images/icons_closed.png"  Width="30px" HorizontalAlignment="Right" Margin="10 0" />
+
+
+        </Grid>
+        <Grid DockPanel.Dock="Left" x:Name="sidePanel" ScrollViewer.CanContentScroll="False"  HorizontalAlignment="Left" Width="250" Background="#FF4B4646">
+            <StackPanel>
+                <Grid Height="50" Background="White">
+                    <Button Height="30" VerticalAlignment="Top" HorizontalAlignment="Right" 
+                            Background="Transparent" BorderBrush="Transparent" Margin="10">
+                        <Image Source="Images/icons_menu.png" Width="30" />
+                    </Button>
+
+                </Grid>
+                <ListView x:Name="List1" BorderBrush="Transparent"  Background="Transparent" Foreground="White" FontFamily="Century Gothic" FontSize="20" SelectionChanged="ListView_SelectionChanged">
+                    <ListViewItem Height="50">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center" />
+                            <TextBlock Margin="15 0 0 0" Text="Add Course" FontWeight="Bold" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="50">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center" />
+                            <TextBlock Margin="15 0 0 0" Text="Update Course" FontWeight="Bold" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="50">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center" />
+                            <TextBlock Margin="15 0 0 0" Text="Delete Course" FontWeight="Bold" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+
+                </ListView>
+            </StackPanel>
+
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+
+            <!--add course-->
+            <Grid Grid.Row="0" Grid.Column="0"  Opacity="1" x:Name="addCourseGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label  Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px" >
+
+                    Course Name
+                </Label>
+
+                <Label  Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                    Hours
+                </Label>
+
+                <Label  Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                    Description
+                </Label>
+
+                <Label  Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                    Min Degrees
+                </Label>
+
+                <Label  Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                    Max Degrees
+                </Label>
+
+                
+                <!--examples lables-->
+                
+                            <Label Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" Foreground="LightGray"  Margin="0,40,0,0"  FontSize="15">
+                                ex: Html
+                            </Label>
+                            <Label Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" Foreground="LightGray"  Margin="10"  FontSize="15">
+                                ex: 20
+                            </Label>
+                            <Label Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" Foreground="LightGray"  Margin="10"  FontSize="15">
+                                ex: html is a markup language
+                            </Label>
+                            <Label Grid.Row="3" Grid.Column="2" VerticalAlignment="Center" Foreground="LightGray"  Margin="10" FontSize="15">
+                                ex: 40
+                            </Label>
+                            <Label Grid.Row="4" Grid.Column="2" VerticalAlignment="Center" Foreground="LightGray"  Margin="10"  FontSize="15">
+                                ex: 100
+                            </Label>
+
+                            <TextBox x:Name="cName"   Grid.Row="0" Grid.Column="1" Height="40" Margin="10" VerticalAlignment="Center"></TextBox>
+                            <TextBox x:Name="cHours" Grid.Row="1" Grid.Column="1"  Height="40" Margin="10" VerticalAlignment="Center"></TextBox >
+                            <TextBox x:Name="cDes" Grid.Row="2" Grid.Column="1"  Height="40" Margin="10" VerticalAlignment="Center"></TextBox>
+                            <TextBox x:Name="min" Grid.Row="3" Grid.Column="1"  Height="40" Margin="10" VerticalAlignment="Center"></TextBox>
+                            <TextBox x:Name="max" Grid.Row="4" Grid.Column="1"  Height="40" Margin="10" VerticalAlignment="Center"></TextBox>
+
+                            <Button Click="Add_Course_Click"  Grid.Row="5" Grid.Column="2"                                   
+                            Foreground="White" FontSize="30px" Width="150" Height="auto" 
+                            Content="ADD" Background="#FF058306"  HorizontalAlignment="Center">
+                            </Button>
+
+                        </Grid>
+
+            <!--update course-->
+            <Grid Grid.Row="0" Grid.Column="0" Opacity="1" x:Name="updateCourseGrid" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="124*"></RowDefinition>
+                                <RowDefinition Height="124*"></RowDefinition>
+                                <RowDefinition Height="124*"></RowDefinition>
+                                <RowDefinition Height="124*"></RowDefinition>
+                                <RowDefinition Height="124*"></RowDefinition>
+                                <RowDefinition Height="86*"></RowDefinition>
+                                <RowDefinition Height="37*"/>
+                            </Grid.RowDefinitions>
+                            <Label   Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="10" HorizontalAlignment="Right" 
+                                     Foreground="#FF058306"  FontSize="20px">
+
+                                Course Name
+                            </Label>
+
+ 
+                            <Label  Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                                Hours
+                            </Label>
+
+                            <Label  Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                                Description
+                            </Label>
+
+                            <Label  Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                                Min Degrees
+                            </Label>
+
+                            <Label  Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                                Max Degrees
+                            </Label>
+
+                            <!--examples lable-->
+                            <Label Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" Foreground="LightGray"  Margin="10"  FontSize="15">
+                                ex: 20
+                            </Label>
+                            <Label Grid.Row="2" Grid.Column="2"  VerticalAlignment="Center" Foreground="LightGray"  Margin="10" FontSize="15">
+                                ex: html is a markup language
+                            </Label>
+                            <Label Grid.Row="3" Grid.Column="2" VerticalAlignment="Center" Foreground="LightGray"  Margin="10"  FontSize="15">
+                                ex: 40
+                            </Label>
+                            <Label Grid.Row="4" Grid.Column="2" VerticalAlignment="Center" Foreground="LightGray"   FontSize="15">
+                                ex: 100
+                            </Label>
+
+                            <Button Click="update_course_Click" Grid.Column="2" Grid.Row="5" 
+                                     Foreground="White" FontSize="30px" Width="150" Height="auto"
+                                    Background="#FF058306" Content="UPDATE" HorizontalAlignment="Center" Margin="77,0" Grid.RowSpan="2" >
+
+                            </Button>
+
+
+
+                            <ComboBox x:Name="courses" SelectionChanged="courses_SelectionChanged" 
+                                       Margin="10" Grid.Row="0" Grid.Column="1" Height="40" >
+                            </ComboBox>
+
+
+
+                            <TextBox x:Name="cHOURS" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Height="40" Margin="10" ></TextBox>
+                            <TextBox x:Name="cDES"  Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Height="40" Margin="10"></TextBox>
+                            <TextBox x:Name="MIN"  Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Height="40" Margin="10"></TextBox>
+                            <TextBox x:Name="MAX"  Grid.Row="4" Grid.Column="1" VerticalAlignment="Center"  Height="40" Margin="10"></TextBox>
+                        </Grid>
+
+            <!--delete course-->
+            <Grid Grid.Row="0" Grid.Column="0" Opacity="1" x:Name="DeleteCourseGrid" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="124*"></RowDefinition>
+                    <RowDefinition Height="124*"></RowDefinition>
+                    <RowDefinition Height="124*"></RowDefinition>
+
+                </Grid.RowDefinitions>
+                <Label   Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="10" HorizontalAlignment="Right" 
+                                     Foreground="#FF058306"  FontSize="20px">
+
+                    Course Name
+                </Label>
+
+
+
+                <Button Click="delete_course_Click" Grid.Column="2" Grid.Row="2" 
+                                     Foreground="White" FontSize="30px" Width="150" Height="130"
+                                    Background="#FF058306" Content="Delete" HorizontalAlignment="Center" Margin="77,0"  >
+
+                </Button>
+
+
+
+                <ComboBox x:Name="coursesList" SelectionChanged="courses_del_SelectionChanged" 
+                                       Margin="10" Grid.Row="0" Grid.Column="1" Height="40" >
+                </ComboBox>
+
+
+
+                
+            </Grid>
+
+
+
+
+        </Grid>
+    </DockPanel>
+
+
+
+
+
+</Window>
+
+<!--<Border BorderThickness="2" BorderBrush="SteelBlue" Margin="7,7,5,9">
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" Margin="0,2,-2,6">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="250" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid x:Name="LeftSide" Grid.Row="0" Grid.Column="0" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"/>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Border  Background="#FF502C85" Grid.Row="0" >
+                        <DockPanel VerticalAlignment="Top" HorizontalAlignment="Left" Width="250">
+
+                        </DockPanel>
+                    </Border>
+                    <Border  Grid.Row="1" Opacity="0.97" >
+                        <Border.Background>
+                            <LinearGradientBrush  StartPoint="0.5,0" EndPoint="0.5,1">
+                                <LinearGradientBrush.RelativeTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                        <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                        <RotateTransform Angle="-2" CenterY="0.5" CenterX="0.5"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </LinearGradientBrush.RelativeTransform>
+                                <GradientStop Color="#FF522793" Offset="0"/>
+                                <GradientStop Color="#FF2A3B4B" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel  Grid.Column="0"  >
+
+
+                            </StackPanel>
+
+
+                        </Grid>
+                    </Border>
+
+                    <Border  BorderThickness="0" Grid.Row="2" Opacity="0.98" Padding="0,20,0,0" Margin="0,4,0,-4">
+                        <Border.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <LinearGradientBrush.RelativeTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                        <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                        <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </LinearGradientBrush.RelativeTransform>
+                                <GradientStop Color="#FF2A3B4B" Offset="0"/>
+                                <GradientStop Color="#FF2A3B4B" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+
+
+                        <StackPanel >
+
+                            <Button Height="50"    Padding="0,10,0,0" Margin="0,0,0,1" Background="#FF2A3B4B"  >
+                                <DockPanel Width="192" Margin="25,0,0,0">
+                                    <Label Content="Add Course" MouseDown="add_MouseDown" HorizontalAlignment="Center" Foreground="White" FontSize="20"  Margin="17,0,0,0" Width="126"/>
+                                </DockPanel>
+                            </Button>
+                            <Button Height="50"    Padding="0,10,0,0" Margin="0,0,0,1" Background="#FF2A3B4B">
+                                <DockPanel Width="220" Margin="20,0,0,0">
+                                    <Label Content="Update Course" MouseDown="update_MouseDown" HorizontalAlignment="Center" Foreground="White" FontSize="20"  Margin="10,0,0,0" Width="auto"/>
+                                </DockPanel>
+                            </Button>
+                            --><!--<Button Height="50"    Padding="0,10,0,0" Margin="0,0,0,1" Background="#FF2A3B4B">
+                                <DockPanel Width="220" Margin="25,0,0,0">
+                                    <Label Content="course instructors" MouseDown="update_MouseDown" HorizontalAlignment="Center" Foreground="White" FontSize="20"  Margin="17,0,0,0" Width="auto"/>
+                                </DockPanel>
+                            </Button>--><!--
+
+
+                        </StackPanel>
+
+                    </Border>
+
+
+
+                </Grid>
+
+
+                --><!--content grid--><!--
+                <Grid  Grid.Column="1" Grid.Row="0">
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="*"/>
+
+                    </Grid.RowDefinitions>
+                    <Grid.Effect>
+                        <DropShadowEffect BlurRadius="7" Direction="270" RenderingBias="Quality" ShadowDepth="1"/>
+                    </Grid.Effect>
+
+
+
+                    <Border Background="#f9f9f9" Grid.Row="2" Margin="0,20,0,0">
+
+                    </Border>
+                    <Grid  Grid.Row="0" Grid.Column="0" Margin="0">
+
+
+                        --><!--<DockPanel   Margin="0,0,0,0" ScrollViewer.CanContentScroll="True"  ScrollViewer.VerticalScrollBarVisibility="Visible" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >-->
+
+
+                        <!--add course--><!--
+                       
+                        --><!--update course--><!--
+
+                        <Grid Grid.Row="0" Grid.Column="0" Opacity="1" x:Name="updateCourseGrid" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="124*"></RowDefinition>
+                                <RowDefinition Height="124*"></RowDefinition>
+                                <RowDefinition Height="124*"></RowDefinition>
+                                <RowDefinition Height="124*"></RowDefinition>
+                                <RowDefinition Height="124*"></RowDefinition>
+                                <RowDefinition Height="86*"></RowDefinition>
+                                <RowDefinition Height="37*"/>
+                            </Grid.RowDefinitions>
+                            <Label   Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="10" HorizontalAlignment="Right" 
+                                     Foreground="#FF058306"  FontSize="20px">
+
+                                Course Name
+                            </Label>
+
+ 
+                            <Label  Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                                Hours
+                            </Label>
+
+                            <Label  Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                                Description
+                            </Label>
+
+                            <Label  Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                                Min Degrees
+                            </Label>
+
+                            <Label  Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" 
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                                Max Degrees
+                            </Label>
+
+                            --><!--examples lable--><!--
+                            <Label Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" Foreground="LightGray"  Margin="10"  FontSize="15">
+                                ex: 20
+                            </Label>
+                            <Label Grid.Row="2" Grid.Column="2"  VerticalAlignment="Center" Foreground="LightGray"  Margin="10" FontSize="15">
+                                ex: html is a markup language
+                            </Label>
+                            <Label Grid.Row="3" Grid.Column="2" VerticalAlignment="Center" Foreground="LightGray"  Margin="10"  FontSize="15">
+                                ex: 40
+                            </Label>
+                            <Label Grid.Row="4" Grid.Column="2" VerticalAlignment="Center" Foreground="LightGray"   FontSize="15">
+                                ex: 100
+                            </Label>
+
+                            <Button Click="update_course_Click" Grid.Column="2" Grid.Row="5" 
+                                     Foreground="White" FontSize="30px" Width="150" Height="auto"
+                                    Background="#FF058306" Content="UPDATE" HorizontalAlignment="Center" Margin="77,0" Grid.RowSpan="2" >
+
+                            </Button>
+
+
+
+                            <ComboBox x:Name="courses" SelectionChanged="courses_SelectionChanged" 
+                                       Margin="10,57,10,37" Grid.Row="0" Grid.Column="1" Height="30" >
+                            </ComboBox>
+
+
+
+                            <TextBox x:Name="cHOURS" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Height="40" Margin="10" ></TextBox>
+                            <TextBox x:Name="cDES"  Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Height="40" Margin="10"></TextBox>
+                            <TextBox x:Name="MIN"  Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Height="40" Margin="10"></TextBox>
+                            <TextBox x:Name="MAX"  Grid.Row="4" VerticalAlignment="Center" Grid.Column="1" Height="40" Margin="10"></TextBox>
+                        </Grid>
+
+
+
+                        --><!--</DockPanel>--><!--
+
+                    </Grid>
+
+
+
+                </Grid>
+
+
+            </Grid>
+        </ScrollViewer>
+    </Border>
+</Window>-->

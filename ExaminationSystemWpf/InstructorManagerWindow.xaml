@@ -1,0 +1,191 @@
+﻿<Window x:Class="ExaminationSystemWpf.InstructorManagerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExaminationSystemWpf"
+        mc:Ignorable="d"
+        Title="InstructorManagerWindow" Height="800" Width="1200" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+        <DockPanel LastChildFill="True">
+            <Grid DockPanel.Dock="Top" x:Name="PanelHeader" VerticalAlignment="Top" Height="60" Background="#FF058306" >
+
+                <Image Source="/Images/icons_closed.png"  Width="30px" HorizontalAlignment="Right" Margin="10 0" MouseDown="Image_MouseDown"/>
+
+
+            </Grid>
+            <Grid DockPanel.Dock="Left" x:Name="sidePanel" ScrollViewer.CanContentScroll="False"  HorizontalAlignment="Left" Width="250" Background="#FF4B4646">
+                <StackPanel>
+                    <Grid Height="50" Background="White">
+                        <Button Height="30" VerticalAlignment="Top" HorizontalAlignment="Right" 
+                            Background="Transparent" BorderBrush="Transparent" Margin="10">
+                            <Image Source="Images/icons_menu.png" Width="30" />
+                        </Button>
+
+                    </Grid>
+                    <ListView x:Name="List1" BorderBrush="Transparent"  Background="Transparent" Foreground="White" FontFamily="Century Gothic" FontSize="20" SelectionChanged="ListView_SelectionChanged">
+                        <ListViewItem Height="50">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center" />
+                                <TextBlock Margin="15 0 0 0" Text="Add Instructor" FontWeight="Bold" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListViewItem>
+                        <ListViewItem Height="50">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center" />
+                                <TextBlock Margin="15 0 0 0" Text="Update Instructor" FontWeight="Bold" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListViewItem>
+                    <ListViewItem Height="50">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center"/>
+                            <TextBlock Margin="15 0 0 0" Text="Delete Instructor" FontWeight="Bold" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+                </StackPanel>
+
+            </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            
+            <!--add -->
+            <Grid x:Name='add_instructor_grid' Grid.Row="0" Grid.Column="0"  Opacity="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center"  VerticalAlignment="Center"
+                                Margin="10,20,10,10" Foreground="#FF058306"  FontSize="20px">
+
+                    Name
+                </Label>
+
+                <Label  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center"  VerticalAlignment="Center"
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                    Email
+                </Label>
+
+                <Label  Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center"  VerticalAlignment="Center"
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                    Branch Name
+                </Label>
+
+                <Label  Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center"  VerticalAlignment="Center"
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                    User Name
+                </Label>
+
+                <Label  Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center"  VerticalAlignment="Center"
+                                    Margin="10" Foreground="#FF058306"  FontSize="20px">
+
+                    User Password
+                </Label>
+
+                <!--examples lables-->
+                <Label Grid.Row="0" Grid.Column="2" Foreground="LightGray" HorizontalAlignment="Center"  VerticalAlignment="Center"  Margin="10"  FontSize="15">
+                    ex: Ahmed
+                </Label>
+                <Label Grid.Row="1" Grid.Column="2" Foreground="LightGray"  HorizontalAlignment="Center"  VerticalAlignment="Center" Margin="10"  FontSize="15">
+                    ex: Ahmed@gmail.com
+                </Label>
+                <Label Grid.Row="2" Grid.Column="2" Foreground="LightGray"  HorizontalAlignment="Center"  VerticalAlignment="Center" Margin="10" FontSize="15">
+                    ex: Assuit
+                </Label>
+                <Label Grid.Row="3" Grid.Column="2" Foreground="LightGray"  HorizontalAlignment="Center"  VerticalAlignment="Center" Margin="10"  FontSize="15">
+                    ex: Ahmed
+                </Label>
+                <Label Grid.Row="4" Grid.Column="2" Foreground="LightGray" HorizontalAlignment="Center"  VerticalAlignment="Center"  Margin="10"  FontSize="15">
+                    ex: Ahmed123
+                </Label>
+
+                <TextBox x:Name="nameTxt" VerticalAlignment="Center" Margin="10" Grid.Row="0" Grid.Column="1"  Height="40"></TextBox>
+                <TextBox x:Name="emailTxt" Grid.Row="1" Grid.Column="1"   VerticalAlignment="Center" Margin="10"  Height="40"></TextBox >
+                <ComboBox x:Name="bNamecmbox" Grid.Row="2" Grid.Column="1"   VerticalAlignment="Center" Width="300" Height="40"></ComboBox>
+                <TextBox x:Name="unameTxt" Grid.Row="3" Grid.Column="1"  VerticalAlignment="Center" Margin="10"  Height="40" ></TextBox>
+                <TextBox x:Name="upassTxt" Grid.Row="4" Grid.Column="1"   VerticalAlignment="Center" Margin="10" Height="40"  ></TextBox>
+
+                <Button Click="Add_Instructor_Click"  Grid.Row="5" Grid.Column="2"                                   
+                            Foreground="White" FontSize="30px" Width="150" Height="100" 
+                            Content="ADD" Background="#FF058306"  >
+                </Button>
+
+            </Grid>
+
+            <!--update -->
+            <Grid x:Name="Update_instructor_grid" Opacity="1"  Grid.Row="0" Grid.Column="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+
+                </Grid.RowDefinitions>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF058306"  FontSize="20" Text="Name:" Grid.Column="0" Grid.Row="0" ></TextBlock>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF058306"  FontSize="20" Text="E-mail:" Grid.Column="0" Grid.Row="1" ></TextBlock>
+
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF058306"  FontSize="20" Text="Name:" Grid.Column="0" Grid.Row="2" ></TextBlock>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF058306"  FontSize="20" Text="Branch:" Grid.Column="0" Grid.Row="3" ></TextBlock>
+               
+                <TextBox x:Name="InstructorName"  Grid.Column="1" Grid.Row="2" Width="300" Height="50" ></TextBox>
+                <TextBox x:Name="InstructorEmail" Grid.Column="1" Grid.Row="1" Width="300" Height="50" ></TextBox>
+
+                <Button Foreground="#FF058306" FontSize="30" Background="Beige" Click="Button_Upd_Click" Grid.Column="1" Grid.Row="7" Margin="161,21,203,12" Content="Update" RenderTransformOrigin="0.5,0.5">
+                </Button>
+                <ComboBox Name="InstructorNames"  Width="300" Grid.Row="0" Grid.Column="1" Height="50" >
+                </ComboBox>
+                <ComboBox Name="InstructorBranch" Width="300" Grid.Column="1" Grid.Row="3" Foreground="#FF058306"  Height="50" FontSize="20"></ComboBox>
+
+            </Grid>
+
+            <!-- delete -->
+            <Grid x:Name="Delete_instructor_grid" Opacity="1" Grid.Row="0" Grid.Column="0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF058306"  FontSize="30" Text="Instructor Name:" Grid.Column="0" Grid.Row="0" ></TextBlock>
+                    <ComboBox x:Name="InstructorNameCmbox" Grid.Column="1" Grid.Row="0" Width="300" Height="50"></ComboBox>
+                  
+                    <Button Content="Delete" Background="#FF058306" Height="100" FontSize="30" Grid.Column="1" Grid.Row="2" Margin="164,47,188,43" Click="Button_del_Click" ></Button>
+                </Grid>
+
+            </Grid>
+        </Grid>
+        </DockPanel>
+          
+
+                    
+
+
+</Window>

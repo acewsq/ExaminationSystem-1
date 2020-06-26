@@ -1,0 +1,96 @@
+﻿<Window x:Class="ExaminationSystemWpf.AssignStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExaminationSystemWpf"
+        mc:Ignorable="d"
+        Title="AssignStudent" Height="800" Width="1200" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None" ShowInTaskbar="False">
+    <DockPanel LastChildFill="True">
+        <Grid DockPanel.Dock="Top" x:Name="PanelHeader" VerticalAlignment="Top" Height="60" Background="#FF058306" >
+
+            <Image Source="/Images/icons_closed.png"  Width="30px" HorizontalAlignment="Right" Margin="10 0" MouseDown="Image_MouseDown"/>
+
+
+        </Grid>
+        <Grid DockPanel.Dock="Left" x:Name="sidePanel" ScrollViewer.CanContentScroll="False"  HorizontalAlignment="Left" Width="200" Background="#FF4B4646">
+            <StackPanel>
+                <Grid Height="50" Background="White">
+                    <Button Height="30" VerticalAlignment="Top" HorizontalAlignment="Right" 
+                            Background="Transparent" BorderBrush="Transparent" Margin="10">
+                        <Image Source="Images/icons_menu.png" Width="30" />
+                    </Button>
+                </Grid>
+                <ListView x:Name="List1" BorderBrush="Transparent"  Background="Transparent" Foreground="White" FontFamily="Century Gothic" FontSize="20" SelectionChanged="ListView_SelectionChanged">
+                    <ListViewItem Height="50">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center"/>
+                            <TextBlock Margin="8 0 0 0" Text="Assign Students" FontWeight="Bold" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </StackPanel>
+
+        </Grid>
+        <Grid Margin="60 100" x:Name="gridAssign">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+
+            <Grid x:Name="GridDeleteQuestion" Margin="10,10,10,-99" Visibility="Visible">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="304*"/>
+                    <ColumnDefinition Width="547*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.ColumnSpan="2" Margin="0,-29,0,31">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="220*"></ColumnDefinition>
+                            <ColumnDefinition Width="365*"></ColumnDefinition>
+                            <ColumnDefinition Width="12*"/>
+                            <ColumnDefinition Width="169*"/>
+                            <ColumnDefinition Width="85*"></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+
+                        </Grid.RowDefinitions>
+                        <Label  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Course:</Label>
+                        <ComboBox SelectedIndex="0" x:Name="cmbInstructorCourses" Grid.Row="0" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3" SelectionChanged="CmbInstructorCourses_SelectionChanged" ></ComboBox>
+
+
+
+                        <Label  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Type of Exam :</Label>
+
+                        <ComboBox  Name="cmbCoursesExams" Grid.Row="1" Grid.Column="1" Margin="10,10,0,10"  Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3" >
+
+                        </ComboBox>
+                        <Label  Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right" Margin="0,10,10,10" Foreground="#FF058306" FontSize="20px">Choise Student :</Label>
+                        <StackPanel Margin="10,10,0,10" Grid.Row="6" Grid.Column="1" Width="450px" HorizontalAlignment="Left" Grid.ColumnSpan="3">
+                            <DataGrid Height="100" x:Name="gridStudent" HorizontalAlignment="Left" Width="450px" SelectionMode="Extended" SelectionUnit="FullRow" IsEnabled="True" />
+                        </StackPanel>
+
+
+
+                    </Grid>
+                    <WrapPanel Margin="200,20,100,10" RenderTransformOrigin="0.612,0.447">
+                        <Button x:Name="addstudent" Foreground="White" Background="#FF058306" Content="Add" FontSize="30px" Width="100px" Margin="30px" HorizontalAlignment="Center" Click="Addstudent_Click" ></Button>
+                        <Button x:Name="DeleteStudent" Foreground="White" Background="#FF058306" Content="Delete" FontSize="30px" Width="100px" Margin="30px" HorizontalAlignment="Center" Click="DeleteStudent_Click" />
+                    </WrapPanel>
+                </StackPanel>
+            </Grid>
+
+        </Grid>
+    </DockPanel>
+</Window>

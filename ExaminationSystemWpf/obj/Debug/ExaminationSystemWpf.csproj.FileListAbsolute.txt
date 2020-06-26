@@ -1,0 +1,282 @@
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe.config
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.pdb
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.dll
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.dll
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.xml
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.xml
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csprojAssemblyReference.cache
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MainWindow.g.cs
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\App.g.cs
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.cache
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.lref
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MainWindow.baml
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.g.resources
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Properties.Resources.resources
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.GenerateResource.cache
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.CoreCompileInputs.cache
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.CopyComplete
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.exe
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.pdb
+D:\AITI\Material\LINQ\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates.resources
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.exe
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.pdb
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe.config
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.pdb
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.dll
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.dll
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.xml
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.xml
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\Login.g.cs
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\App.g.cs
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.cache
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.lref
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\Login.baml
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.g.resources
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates.resources
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Properties.Resources.resources
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.GenerateResource.cache
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.CoreCompileInputs.cache
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.CopyComplete
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates1.resources
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExamWindow.g.cs
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExamWindow.baml
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MessageWindow.g.cs
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MessageWindow.baml
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates2.resources
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates3.resources
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates4.resources
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\WindowQuestion.g.cs
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\WindowQuestion.baml
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\HomeWindow.g.cs
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\HomeWindow.baml
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csprojAssemblyReference.cache
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\CourseManagerWindow.g.cs
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorManagerWindow.g.cs
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ManagerWindow.g.cs
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\CourseManagerWindow.baml
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorManagerWindow.baml
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ManagerWindow.baml
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\IntakeManagerWindow.g.cs
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\IntakeManagerWindow.baml
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\BranchMangerWindow.g.cs
+D:\AITI\Material\LINQ\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\BranchMangerWindow.baml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe.config
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.pdb
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.dll
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.dll
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.xml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.xml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csprojAssemblyReference.cache
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\BranchMangerWindow.g.cs
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\CourseManagerWindow.g.cs
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExamWindow.g.cs
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\HomeWindow.g.cs
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorManagerWindow.g.cs
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\IntakeManagerWindow.g.cs
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\Login.g.cs
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ManagerWindow.g.cs
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MessageWindow.g.cs
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\WindowQuestion.g.cs
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\App.g.cs
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.cache
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.lref
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\BranchMangerWindow.baml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\CourseManagerWindow.baml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExamWindow.baml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\HomeWindow.baml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorManagerWindow.baml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\IntakeManagerWindow.baml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\Login.baml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ManagerWindow.baml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MessageWindow.baml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\WindowQuestion.baml
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.g.resources
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates.resources
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates1.resources
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates2.resources
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates3.resources
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates4.resources
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Properties.Resources.resources
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.GenerateResource.cache
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.CopyComplete
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.exe
+I:\C# Project\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.pdb
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csprojAssemblyReference.cache
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\CourseManagerWindow.g.cs
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExamWindow.g.cs
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\HomeWindow.g.cs
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorManagerWindow.g.cs
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\Login.g.cs
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ManagerWindow.g.cs
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MessageWindow.g.cs
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentManagerWindow.g.cs
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\TrackBranchIntakeWindow.g.cs
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\WindowQuestion.g.cs
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\App.g.cs
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.cache
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.lref
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.exe
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.pdb
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe.config
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.pdb
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.dll
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.xml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\CourseManagerWindow.baml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExamWindow.baml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\HomeWindow.baml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorManagerWindow.baml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\Login.baml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ManagerWindow.baml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MessageWindow.baml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentManagerWindow.baml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\TrackBranchIntakeWindow.baml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\WindowQuestion.baml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.g.resources
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Properties.Resources.resources
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.GenerateResource.cache
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.CopyComplete
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorWin.g.cs
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorWin.baml
+C:\Users\roma\Desktop\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates.resources
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csprojAssemblyReference.cache
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\CourseManagerWindow.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExamWindow.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\HomeWindow.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorManagerWindow.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorWin.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\Login.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ManagerWindow.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MessageWindow.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentManagerWindow.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\TrackBranchIntakeWindow.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\WindowQuestion.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\App.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.cache
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.lref
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.exe
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.pdb
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe.config
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.pdb
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.dll
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.xml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\CourseManagerWindow.baml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExamWindow.baml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\HomeWindow.baml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorManagerWindow.baml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorWin.baml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\Login.baml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ManagerWindow.baml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MessageWindow.baml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentManagerWindow.baml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\TrackBranchIntakeWindow.baml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\WindowQuestion.baml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.g.resources
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.updates.resources
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Properties.Resources.resources
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.GenerateResource.cache
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.CopyComplete
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentWindow.g.cs
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentWindow.baml
+C:\Users\roma\Desktop\New folder (2)\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.step2.resources
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csprojAssemblyReference.cache
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\AssignStudent.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\CourseManagerWindow.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExamWindow.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\HomeWindow.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorManagerWindow.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorWin.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\Login.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ManagerWindow.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MessageWindow.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentManagerWindow.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentWindow.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\TrackBranchIntakeWindow.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\WindowQuestion.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\App.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.cache
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.lref
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.exe
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.pdb
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe.config
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.pdb
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.dll
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.dll
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.xml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.xml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\CourseManagerWindow.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExamWindow.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\HomeWindow.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorManagerWindow.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorWin.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\Login.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ManagerWindow.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MessageWindow.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentManagerWindow.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentWindow.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\TrackBranchIntakeWindow.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\WindowQuestion.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\AssignStudent.baml
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.g.resources
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Properties.Resources.resources
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.GenerateResource.cache
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.CoreCompileInputs.cache
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.CopyComplete
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.update.resources
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InsCrsStdWindow.g.cs
+D:\AITI\Material\LINQ\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InsCrsStdWindow.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe.config
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.exe
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\ExaminationSystemWpf.pdb
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.dll
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.dll
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.xml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\bin\Debug\EntityFramework.SqlServer.xml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csprojAssemblyReference.cache
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\AssignStudent.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\CourseManagerWindow.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExamWindow.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\HomeWindow.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InsCrsStdWindow.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorManagerWindow.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorWin.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\Login.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ManagerWindow.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MessageWindow.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentManagerWindow.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentWindow.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\TrackBranchIntakeWindow.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\WindowQuestion.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\App.g.cs
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.cache
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf_MarkupCompile.lref
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\AssignStudent.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\CourseManagerWindow.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExamWindow.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\HomeWindow.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InsCrsStdWindow.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorManagerWindow.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\InstructorWin.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\Login.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ManagerWindow.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\MessageWindow.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentManagerWindow.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\StudentWindow.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\TrackBranchIntakeWindow.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\WindowQuestion.baml
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.g.resources
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Migrations.update.resources
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.Properties.Resources.resources
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.GenerateResource.cache
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.csproj.CopyComplete
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.exe
+E:\Enas&Mariam&ghada&yasmine\C# Project-entegrated\ExaminationSystemWpf\ExaminationSystemWpf\obj\Debug\ExaminationSystemWpf.pdb

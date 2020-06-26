@@ -1,0 +1,43 @@
+﻿<Window x:Class="ExaminationSystemWpf.InstructorWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExaminationSystemWpf"
+        mc:Ignorable="d"
+        Title="InstructorWin"  Height="800" Width="1200" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    
+    <DockPanel LastChildFill="True">
+        <Grid DockPanel.Dock="Top" x:Name="PanelHeader" VerticalAlignment="Top" Height="60" Background="#FF058306" >
+            <Image Source="/Images/icons_closed.png"  Width="30px" HorizontalAlignment="Right" Margin="10 0" MouseDown="Image_MouseDown"/>
+
+        </Grid>
+
+        <Grid Margin="350,156,350,256" x:Name="sidePanel" ScrollViewer.CanContentScroll="False"  Height="300" HorizontalAlignment="Left" Width="500" Background="#FF4B4646">
+            <StackPanel >
+                <Button Height="100" Name="Exam"  Padding="0,10,0,0" Margin="0,0,0,1" Background="#FF2A3B4B" Click="Exam_Click"  >
+
+                    <Label Content="Exam" Foreground="White" FontSize="40"  Margin="17,0,0,0" Width="auto" />
+
+                </Button>
+
+                <Button  Height="100" Name="QuestionPool" Padding="0,10,0,0" Margin="0,0,0,1" Background="#FF2A3B4B" Click="QuestionPool_Click">
+
+                    <Label Content="Question Pool"   Foreground="White" FontSize="40"  Margin="17,0,0,0" Width="auto"/>
+
+                </Button>
+                <Button Height="100" Name="Assign"  Padding="0,10,0,0" Margin="0,0,0,1" Background="#FF2A3B4B" Click="Assign_Click"> 
+
+                    <Label Content="Assign Student To Exam" Foreground="White" FontSize="40"  Margin="17,0,0,0" Width="auto"/>
+
+                </Button>
+               
+
+
+            </StackPanel>
+
+        </Grid>
+
+
+    </DockPanel>
+</Window>

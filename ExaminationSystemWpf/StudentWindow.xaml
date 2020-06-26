@@ -1,0 +1,159 @@
+﻿<Window x:Class="ExaminationSystemWpf.StudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExaminationSystemWpf"
+        mc:Ignorable="d"
+        Title="StudentWindow" Height="800" Width="1200" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+
+    <DockPanel LastChildFill="True">
+        <Grid DockPanel.Dock="Top" x:Name="PanelHeader" VerticalAlignment="Top" Height="60" Background="#FF058306">
+
+            <Image Source="/Images/icons_closed.png"  Width="30px" HorizontalAlignment="Right" Margin="10 0" MouseDown="Image_MouseDown"/>
+
+
+        </Grid>
+        <Grid DockPanel.Dock="Left" x:Name="sidePanel" ScrollViewer.CanContentScroll="False"  HorizontalAlignment="Left" Width="250" Background="#FF4B4646">
+            <StackPanel>
+                <Grid Height="50" Background="White">
+                    <Button Height="30" VerticalAlignment="Top" HorizontalAlignment="Right" 
+                            Background="Transparent" BorderBrush="Transparent" Margin="10">
+                        <Image Source="Images/icons_menu.png" Width="30" />
+                    </Button>
+
+                </Grid>
+                <ListView x:Name="List1" BorderBrush="Transparent" Background="Transparent" Foreground="White" FontFamily="Century Gothic" FontSize="20" SelectionChanged="ListView_SelectionChanged">
+                    <ListViewItem Height="50">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center" />
+                            <TextBlock Margin="15 0 0 0" Text="Solve Exam" FontWeight="Bold" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="50">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Images/icons_home.png" Height="25" VerticalAlignment="Center"/>
+                            <TextBlock Margin="15 0 0 0" Text="Degrees" FontWeight="Bold" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </StackPanel>
+
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Grid.Column="0"  x:Name="CheckExam" Margin="60 140" >
+                <StackPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="2*"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Label  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Margin="10" Foreground="#FF058306" FontSize="20px">Course:</Label>
+                        <ComboBox Grid.Row="0" Grid.Column="1"  Width="150px" x:Name="cmbStudentCourses" Foreground="#FF058306" FontSize="20px" Margin="10" SelectionChanged="CmbStudentCourses_SelectionChanged"></ComboBox>
+                        <Label  Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" Margin="10" Foreground="#FF058306" FontSize="20px">Exam:</Label>
+                        <ComboBox Grid.Row="0" Grid.Column="3"  Width="150px" x:Name="cmbStudentExams" Foreground="#FF058306" FontSize="20px" Margin="10" SelectionChanged="CmbStudentExams_SelectionChanged"></ComboBox>
+
+                        <TextBlock x:Name="txtCheckResult" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Margin="10"  Width="450px" HorizontalAlignment="Left" Foreground="#FF058306" FontSize="20px"></TextBlock>
+
+                    </Grid>
+                    <Button x:Name="btnStart" Foreground="White" Background="#FF058306" Content="Start" FontSize="30px" Width="150px" Margin="30px" HorizontalAlignment="Center" Click="BtnStart_Click"></Button>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="0" Grid.Column="0"  x:Name="SolveExam" Margin="60 140" >
+                <StackPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="6*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+
+                            <RowDefinition Height="2*"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock x:Name="txttime" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2" Margin="10"  Width="190px" HorizontalAlignment="Left" Foreground="#FF058306" FontSize="20px" VerticalAlignment="Center"></TextBlock>
+
+                        <Label  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Margin="10" Foreground="#FF058306" FontSize="20px" VerticalAlignment="Center">Header:</Label>
+                        <TextBlock x:Name="txtHeader" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="10"  Width="400px" HorizontalAlignment="Left" Foreground="#FF058306" FontSize="20px" VerticalAlignment="Center"></TextBlock>
+
+                        <Label  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Margin="10" Foreground="#FF058306" FontSize="20px" VerticalAlignment="Center">Body:</Label>
+                        <TextBlock x:Name="txtBody" Grid.Row="1" Grid.Column="1"  Grid.ColumnSpan="2" Margin="10"  Width="450px" HorizontalAlignment="Left" Foreground="#FF058306" FontSize="20px" VerticalAlignment="Center"></TextBlock>
+
+                        <StackPanel x:Name="opthions"  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+
+                        </StackPanel>
+                        <Button x:Name="btnNext" Grid.Row="5" Grid.Column="3" Width="50" Background="Transparent" BorderBrush="Transparent" Click="BtnNext_Click">
+                            <Image Source="/Images/icons_arrow_next.png"/>
+                        </Button>
+                        <Button x:Name="btnPre" Grid.Row="5" Grid.Column="0" Width="50" Background="Transparent" BorderBrush="Transparent" Click="BtnPre_Click">
+                            <Image Source="/Images/icons_arrow_pre.png"/>
+                        </Button>
+
+                    </Grid>
+                    <Button x:Name="btnSubmit" Foreground="White" Background="#FF058306" Content="Submit" FontSize="30px" Width="150px" Margin="30px" HorizontalAlignment="Center" Click="BtnSubmit_Click"></Button>
+                    <Label  HorizontalAlignment="Center" Margin="10" Foreground="LightGray" FontSize="20px">Don't Submit Until You Finish The Exam!</Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="0" Grid.Column="0"  x:Name="Degrees" Margin="60 140">
+                <StackPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="6*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="2*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Label  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Margin="10" Foreground="#FF058306" FontSize="20px">Course:</Label>
+                        <ComboBox Grid.Row="0" Grid.Column="1"  Width="150px" x:Name="cmbStudentCourses1" Foreground="#FF058306" FontSize="20px" Margin="10" SelectionChanged="CmbStudentCourses1_SelectionChanged"></ComboBox>
+                        <Label  Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" Margin="10" Foreground="#FF058306" FontSize="20px">Exam:</Label>
+                        <ComboBox Grid.Row="0" Grid.Column="3"  Width="150px" x:Name="cmbStudentExams1" Foreground="#FF058306" FontSize="20px" Margin="10" SelectionChanged="CmbStudentExams1_SelectionChanged"></ComboBox>
+
+                        <Label x:Name="txtFinalMark" Grid.Row="2" Grid.Column="1"   Margin="10" HorizontalAlignment="Left" Foreground="#FF058306" FontSize="20px" VerticalAlignment="Center"></Label>
+                        <Label x:Name="txtFinalMarkState" Grid.Row="2" Grid.Column="2"   Margin="10" HorizontalAlignment="Left" Foreground="#FF058306" FontSize="20px" VerticalAlignment="Center"></Label>
+                        <Button x:Name="btnShowDegree"  Grid.Row="3" Grid.Column="2" Foreground="White" Background="#FF058306" Content="Show" FontSize="30px" Width="150px" Margin="30px" HorizontalAlignment="Center" Click="BtnShowDegree_Click"></Button>
+
+                    </Grid>
+                </StackPanel>
+            </Grid>
+
+        </Grid>
+
+    </DockPanel>
+</Window>
